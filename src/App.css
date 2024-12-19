@@ -7,3 +7,10 @@
 #header {
   border-bottom: 5px solid #ee0000 ;
 }
+
+#article-list {
+  display: flex;
+  flex-wrap: wrap;
+  width: 90vw;
+  border: 5px solid black;
+}
