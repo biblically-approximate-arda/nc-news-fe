@@ -16,6 +16,6 @@ export default function AllArticles() {
     {articles.map((arti) => {
       return <ArticleCard article = {arti}/>
     })}
-  </div> 
-  : <></>
+  </div>
+  : <p></p>
 }

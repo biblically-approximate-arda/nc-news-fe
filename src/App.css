@@ -11,6 +11,18 @@
 #article-list {
   display: flex;
   flex-wrap: wrap;
-  width: 90vw;
-  border: 5px solid black;
+  justify-content: space-evenly;
+  width: 95vw;
+  border: 0px solid black;
+}
+
+#article-card {
+  margin-bottom: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#article-card:hover {
+  background-color: #68686836;
+  cursor: pointer;
 }
